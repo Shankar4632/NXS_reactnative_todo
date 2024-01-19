@@ -8,11 +8,13 @@ import {
   FlatList,
 } from "react-native";
 import Homepage from "./TodoList/Homepage";
+import Demo from "./TodoList/Demo";
 
 export default function App() {
   return (
     <View>
       <Homepage />
+      {/* <Demo /> */}
     </View>
   );
 }
